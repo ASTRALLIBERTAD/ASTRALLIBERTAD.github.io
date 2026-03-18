@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ASTRALLIBERTAD</title>
+  <meta name="description" content="Portfolio of Prince Gabrielle Jhon M. Libertad — Computer Engineer, Rust developer, compiler builder."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <div id="glow"></div>
+
+  <!-- Terminal Overlay -->
+  <div id="terminal-overlay">
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div class="t-dot r"></div>
+        <div class="t-dot y"></div>
+        <div class="t-dot g"></div>
+        <span class="terminal-title">astrallibertad@portfolio ~ $</span>
+        <button class="terminal-esc" onclick="TerminalModule.close()">[ ESC ]</button>
+      </div>
+      <div class="terminal-body" id="terminal-body"></div>
+      <div class="terminal-input-row">
+        <span class="t-prompt-s">❯</span>
+        <input id="terminal-input" type="text" placeholder="type 'help'..." autocomplete="off" spellcheck="false"/>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nav -->
+  <nav>
+    <div class="nav-logo">
+      <span class="nav-bracket">[</span>
+      <span id="nav-codename"></span>
+      <span class="nav-bracket">]</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#certs">certs</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <p class="hero-codename" id="hero-codename"></p>
+    <h1 class="hero-name"   id="hero-name"></h1>
+    <div class="hero-typewriter">
+      <span id="tw-text"></span><span class="tw-cursor"></span>
+    </div>
+    <p  class="hero-desc"  id="hero-desc"></p>
+    <div class="hero-links" id="hero-links"></div>
+    <div class="stats-row"  id="stats-row"></div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-inner">
+      <p  class="section-label reveal">Selected Work</p>
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="filter-bar    reveal" id="filter-bar"></div>
+      <div class="projects-grid reveal" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="section-inner">
+      <p  class="section-label reveal">What I Work With</p>
+      <h2 class="section-title reveal">Technical Skills</h2>
+      <div class="skills-grid reveal" id="skills-grid"></div>
+    </div>
+  </section>
+
+  <!-- Certs -->
+  <section id="certs">
+    <div class="section-inner">
+      <p  class="section-label reveal">Credentials</p>
+      <h2 class="section-title reveal">Certifications & Training</h2>
+      <div class="certs-list reveal" id="certs-list"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="section-inner">
+      <p  class="section-label reveal">Get In Touch</p>
+      <h2 class="section-title reveal">Contact</h2>
+      <div class="contact-grid reveal" id="contact-grid"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-text">© 2026 <span id="footer-name"></span></div>
+    <div class="footer-text"><span id="footer-loc"></span> · Built with HTML · CSS · JS</div>
+  </footer>
+
+  <!-- Scripts: config first (readable), then obfuscated modules -->
+  <script src="js/config.js"></script>
+  <script src="js/terminal.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+</body>
+</html>
