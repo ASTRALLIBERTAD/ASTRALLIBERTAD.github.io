@@ -38,7 +38,7 @@ const CONFIG = {
     email:    "princegabriellejhonl@gmail.com",
     phone1:   "+63 960 346 9262",
     phone2:   "+63 926 869 6011",
-    cv:       "cv_libertad.pdf",
+    cv:       "Prince_Libertad_CV.pdf",
   },
 
   // ── Projects ──────────────────────────────────────────────
@@ -161,15 +161,18 @@ const CONFIG = {
       group: "Frameworks & Libs",
       items: [
         { name: "Flutter"       },
+        { name: "React"         },
         { name: "TensorFlow"    },
         { name: "ONNX Runtime"  },
         { name: "Firebase"      },
         { name: "Android SDK"   },
+        { name: "Verce"         },
       ],
     },
     {
       group: "Tools & Domains",
       items: [
+        { name: "Github"           },
         { name: "LLVM IR"          },
         { name: "CMake / Ninja"    },
         { name: "BLE & UVC"        },
