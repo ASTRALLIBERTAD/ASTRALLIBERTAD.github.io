@@ -25,8 +25,8 @@ const CONFIG = {
 
   // ── Stats row ─────────────────────────────────────────────
   stats: [
-    { num: "4+",    label: "Projects"       },
-    { num: "5+",    label: "Languages"      },
+    { num: "5+",    label: "Projects"       },
+    { num: "6+",    label: "Languages"      },
     { num: "Gr.12", label: "Started Rust"   },
     { num: "2",     label: "Certifications" },
   ],
@@ -113,6 +113,22 @@ const CONFIG = {
       private:  false,
       featured: false,
       repoUrl:  "https://github.com/ASTRALLIBERTAD/LMS-alternative",
+    },
+    
+    {
+      icon:     "👦",
+      name:     "Rizal Book",
+      tagline:  "An interactive digital archive built with React, transforming static historical texts into a dynamic, responsive experience focused on performance and clean UI architecture.",
+      tech: [
+        { label: "React",           style: "t-purple" },
+        { label: "Github",         style: "t-cyan"   },
+        { label: "Vercel", style: "t-cyan"   },
+      ],
+      tags:     ["react"],
+      status:   "done",
+      private:  false,
+      featured: false,
+      repoUrl:  "https://rizal-book.vercel.app/?brid=YWdncwGTdBYFdw-dgYEtgDlUBlwO",
     },
 
     // ── Add more projects here ────────────────────────────
